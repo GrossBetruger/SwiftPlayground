@@ -17,4 +17,5 @@ for _ in 1...10 {
     ship.loot()
 }
 
-print("Gold: \(ship.gold)")
+print("on the date of: \(Date()) we had \(ship.gold) Gold")
+
