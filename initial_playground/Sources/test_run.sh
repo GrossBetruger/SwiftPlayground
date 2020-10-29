@@ -1,3 +1,3 @@
 #/bin/bash
 
-swiftc  play.swift -o test && ./test
+swiftc -O play.swift -o test && ./test
